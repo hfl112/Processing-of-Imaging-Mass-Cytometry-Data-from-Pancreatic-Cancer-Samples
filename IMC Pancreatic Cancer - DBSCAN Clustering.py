@@ -418,13 +418,6 @@ for key in images:
     index += 1
 
 
-# In[679]:
-
-
-# all measurements were stored in this dictionary
-PDAC56841_ROI01
-
-
 # Plot number of clusters of images
 
 # In[680]:
@@ -564,12 +557,6 @@ for i in range(len(rois_paths)):
 
 print(len(rois_measures))
 print(len(rois_measures[rois_names[0]]))
-
-
-# In[794]:
-
-
-rois_measures
 
 
 # Measures of Clusters for all ROIs - Pan-Keratin
@@ -742,12 +729,6 @@ ax.set_xticklabels(labels)
 
 ax.legend( (rects1[0], rects2[0]), ('Pan-Keratin', 'CD3') )
 plt.show()
-
-
-# In[861]:
-
-
-labels
 
 
 # Get average of db_index for all ROIs
